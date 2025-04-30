@@ -1,9 +1,68 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.15">
   <diagram name="第 1 页" id="NUSfyszPAOaoVSYeVH4F">
-    <mxGraphModel>
+    <mxGraphModel dx="2058" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8Dff0xukr8CKfTN3zSQy-1" value="开始" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="104" y="20" width="92" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8Dff0xukr8CKfTN3zSQy-2" value="用户选择本地视频文件或打开摄像头" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20.5" y="100" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8Dff0xukr8CKfTN3zSQy-3" value="根据选择的视频源初始化cv2.VideoCapture对象" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20.5" y="200" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8Dff0xukr8CKfTN3zSQy-4" value="加载预训练的YOLO模型" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="37" y="300" width="227" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8Dff0xukr8CKfTN3zSQy-5" value="配置模型参数（如置信度阈值）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20.5" y="380" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8Dff0xukr8CKfTN3zSQy-6" value="初始化对象计数器和速度估计器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20.5" y="480" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8Dff0xukr8CKfTN3zSQy-7" value="设置计数区域和速度计算参数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20.5" y="580" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8Dff0xukr8CKfTN3zSQy-8" value="结束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="104.5" y="680" width="92" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8Dff0xukr8CKfTN3zSQy-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8Dff0xukr8CKfTN3zSQy-1" target="8Dff0xukr8CKfTN3zSQy-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Dff0xukr8CKfTN3zSQy-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8Dff0xukr8CKfTN3zSQy-2" target="8Dff0xukr8CKfTN3zSQy-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Dff0xukr8CKfTN3zSQy-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8Dff0xukr8CKfTN3zSQy-3" target="8Dff0xukr8CKfTN3zSQy-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Dff0xukr8CKfTN3zSQy-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8Dff0xukr8CKfTN3zSQy-4" target="8Dff0xukr8CKfTN3zSQy-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Dff0xukr8CKfTN3zSQy-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8Dff0xukr8CKfTN3zSQy-5" target="8Dff0xukr8CKfTN3zSQy-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Dff0xukr8CKfTN3zSQy-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8Dff0xukr8CKfTN3zSQy-6" target="8Dff0xukr8CKfTN3zSQy-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Dff0xukr8CKfTN3zSQy-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8Dff0xukr8CKfTN3zSQy-7" target="8Dff0xukr8CKfTN3zSQy-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
