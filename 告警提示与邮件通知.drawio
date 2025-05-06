@@ -1,9 +1,99 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.15">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.15">
   <diagram name="第 1 页" id="Wk8KoYYl4jcNbHfG13gv">
-    <mxGraphModel>
+    <mxGraphModel dx="2421" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8VG-TBrw04u1K86jnWIG-1" value="开始" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="468" y="170" width="92" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-2" value="初始化违法计数器为0" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="407" y="250" width="212" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="8VG-TBrw04u1K86jnWIG-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="513.2857142857142" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-3" value="设置违法阈值" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="436" y="340" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-4" value="调用calculate_speeds方法" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="389.5" y="420" width="247" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="8VG-TBrw04u1K86jnWIG-5" target="8VG-TBrw04u1K86jnWIG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-31" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="8VG-TBrw04u1K86jnWIG-30">
+          <mxGeometry x="0.2006" y="-4" relative="1" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-5" value="是否超速" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="258" y="550" width="118" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-6" value="调用record_violation方法记录违法信息到数据库" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="715.5" width="225" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-7" value="违法计数器 += 1" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="820" width="175" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="8VG-TBrw04u1K86jnWIG-8" target="8VG-TBrw04u1K86jnWIG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-8" value="违法计数器是否&#xa;大于等于阈值" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="220" y="850" width="231" height="231" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-9" value="生成违法行为统计表" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="233.5" y="1140" width="204" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-10" value="调用发送邮件方法，将统计表作为邮件内容发送" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="205.5" y="1220" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-11" value="重置违法计数器为0" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="1330" width="196" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-12" value="结束" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="373.5" y="723.5" width="92" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-13" value="" style="startArrow=none;endArrow=block;exitX=0.49;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=20;" edge="1" parent="1" source="8VG-TBrw04u1K86jnWIG-1" target="8VG-TBrw04u1K86jnWIG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-14" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=20;" edge="1" parent="1" source="8VG-TBrw04u1K86jnWIG-2" target="8VG-TBrw04u1K86jnWIG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-15" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=20;" edge="1" parent="1" source="8VG-TBrw04u1K86jnWIG-3" target="8VG-TBrw04u1K86jnWIG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-16" value="" style="startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=20;exitDx=0;exitDy=0;" edge="1" parent="1" source="8VG-TBrw04u1K86jnWIG-4" target="8VG-TBrw04u1K86jnWIG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-17" value="" style="startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=20;exitDx=0;exitDy=0;" edge="1" parent="1" source="8VG-TBrw04u1K86jnWIG-5" target="8VG-TBrw04u1K86jnWIG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-29" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="8VG-TBrw04u1K86jnWIG-17">
+          <mxGeometry x="0.31" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-18" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=20;" edge="1" parent="1" source="8VG-TBrw04u1K86jnWIG-6" target="8VG-TBrw04u1K86jnWIG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-19" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.5;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=20;entryDx=0;entryDy=0;" edge="1" parent="1" source="8VG-TBrw04u1K86jnWIG-7" target="8VG-TBrw04u1K86jnWIG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-20" value="是" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=20;exitDx=0;exitDy=0;" edge="1" parent="1" source="8VG-TBrw04u1K86jnWIG-8" target="8VG-TBrw04u1K86jnWIG-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-21" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=20;" edge="1" parent="1" source="8VG-TBrw04u1K86jnWIG-9" target="8VG-TBrw04u1K86jnWIG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-22" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=20;" edge="1" parent="1" source="8VG-TBrw04u1K86jnWIG-10" target="8VG-TBrw04u1K86jnWIG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8VG-TBrw04u1K86jnWIG-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.8;entryY=1.048;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="1" source="8VG-TBrw04u1K86jnWIG-11" target="8VG-TBrw04u1K86jnWIG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
