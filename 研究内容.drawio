@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.15">
   <diagram name="第 1 页" id="dLHfJ7_cSqeyT_xCAXdE">
-    <mxGraphModel>
+    <mxGraphModel dx="1419" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BdTfOMmHzt4-FDV-Zzja-48" target="BdTfOMmHzt4-FDV-Zzja-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BdTfOMmHzt4-FDV-Zzja-48" target="BdTfOMmHzt4-FDV-Zzja-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-48" value="研究内容" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1268" y="420" width="130" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-50" value="分析背景及现状" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="850" y="574" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-51" value="分析需求" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="995" y="574" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-52" value="设计并实现系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1268" y="574" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-54" value="梳理传统模式弊端、国内外现状" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="855" y="690" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-55" value="多维度分析技术需求" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="690" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-56" value="技术组合选择" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="690" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-57" value="训练深度学习模型" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1273" y="690" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-58" value="实现系统模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="690" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BdTfOMmHzt4-FDV-Zzja-59" target="BdTfOMmHzt4-FDV-Zzja-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-59" value="优化界面与操作" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="574" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BdTfOMmHzt4-FDV-Zzja-60" target="BdTfOMmHzt4-FDV-Zzja-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-60" value="测试与修改" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="574" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-66" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;" edge="1" parent="1" source="BdTfOMmHzt4-FDV-Zzja-48" target="BdTfOMmHzt4-FDV-Zzja-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-67" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;" edge="1" parent="1" source="BdTfOMmHzt4-FDV-Zzja-48" target="BdTfOMmHzt4-FDV-Zzja-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-68" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;" edge="1" parent="1" source="BdTfOMmHzt4-FDV-Zzja-48" target="BdTfOMmHzt4-FDV-Zzja-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-70" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="BdTfOMmHzt4-FDV-Zzja-50" target="BdTfOMmHzt4-FDV-Zzja-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-71" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="BdTfOMmHzt4-FDV-Zzja-51" target="BdTfOMmHzt4-FDV-Zzja-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-72" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;" edge="1" parent="1" source="BdTfOMmHzt4-FDV-Zzja-52" target="BdTfOMmHzt4-FDV-Zzja-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-73" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="BdTfOMmHzt4-FDV-Zzja-52" target="BdTfOMmHzt4-FDV-Zzja-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-74" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;" edge="1" parent="1" source="BdTfOMmHzt4-FDV-Zzja-52" target="BdTfOMmHzt4-FDV-Zzja-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-83" value="设计简约大气风格，合理规划功能布局" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="690" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BdTfOMmHzt4-FDV-Zzja-88" value="测试并优化界面和操作" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1705" y="690" width="120" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
